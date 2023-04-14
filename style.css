@@ -1,0 +1,42 @@
+/* Cor de fundo do body */
+body {
+    background-color: #FFFFFF; /* Branco */
+}
+
+/* Cor dos links */
+a {
+    color: #0085CA; /* Azul */
+}
+
+/* Cor dos botões */
+button, input[type=submit] {
+    background-color: #0085CA; /* Azul */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor do cabeçalho */
+#header {
+    background-color: #000000; /* Preto */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor do rodapé */
+#footer {
+    background-color: #0085CA; /* Azul */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor da borda dos campos do formulário */
+input[type=text], input[type=email], input[type=password], textarea {
+    border-color: #0085CA; /* Azul */
+}
+
+/* Cor do texto de erro */
+.error {
+    color: #FF0000; /* Vermelho */
+}
+
+/* Cor do texto de sucesso */
+.success {
+    color: #0085CA; /* Azul */
+}

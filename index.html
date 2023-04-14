@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<meta charset= utf-8>
+<html>
+<head>
+    <style>
+        body {
+    background-color: #FFFFFF; /* Branco */
+}
+
+/* Cor dos links */
+a {
+    color: #0085CA; /* Azul */
+}
+
+/* Cor dos botões */
+button, input[type=submit] {
+    background-color: #0085CA; /* Azul */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor do cabeçalho */
+#header {
+    background-color: #000000; /* Preto */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor do rodapé */
+#footer {
+    background-color: #0085CA; /* Azul */
+    color: #FFFFFF; /* Branco */
+}
+
+/* Cor da borda dos campos do formulário */
+input[type=text], input[type=email], input[type=password], textarea {
+    border-color: #0085CA; /* Azul */
+}
+
+/* Cor do texto de erro */
+.error {
+    color: #FF0000; /* Vermelho */
+}
+
+/* Cor do texto de sucesso */
+.success {
+    color: #0085CA; /* Azul */
+}
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login - Estacionamento</title>
+</head>
+<body>
+    <h1>Login - Estacionamento</h1>
+    <form action="login.php" method="POST">
+        <label for="username">Usuário:</label>
+        <input type="text" name="username" id="username"><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password"><br>
+
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>
